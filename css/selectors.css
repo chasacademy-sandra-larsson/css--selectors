@@ -1,0 +1,98 @@
+/* 1. Ge alla element på sidan en 'box-sizing: border-box;' */
+
+
+/* 2. <body> elementet ska ha bakgrundsfärg #ccc*/
+
+
+/* 3. Rubrikerna <h1>, <h2> och <h3> ska ha en margin-bottom 30px. Samt padding 0 i alla riktningar*/
+
+
+/* 4. Huvudrubriken <h1> ska ha font-size 48px */
+
+
+
+/* 5. Elementet med class="container" ska: 
+
+        * centeraras med margin: 0 auto
+        * ha en bredd på 80% 
+        * vit bakgrundsfärg
+        * ett avstånd mellan kant och innehåll
+*/
+
+
+
+/* 6 Alla länkar som ej ännu besökts ska ha en mörkblå färg*/
+
+
+
+/* 7 Alla länkar som har besökts ska ha en valifri mörkgrå färg*/
+
+
+
+/* 8 Alla länkar där muspekaren förs ska ha en valfri röd färg*/
+
+
+
+/* 9. Alla ordnade listor (<ol>) ska ha en blå bakgrundsfärg (välj valfri hexadecimal färg)*/
+
+
+
+/* 10. Alla <li> som är nästlade i en ordnad lista (ol) ska ha en fontweight på 600 och font-size på 18px*/
+
+
+
+/* 11. Endast de <li> som är direkta barn till ol-listan med klassen appendix-list ska ha font-weight på 700 och font-size på 22px*/
+
+
+
+/* 12. Alla oordnade listor (ul) ska ha en grön bakgrundsfärg (välj valfri hexadecimal färg). Förutom sista listan i dokumentet! D.v.s class="checklist"*/
+
+
+
+/* 13. Endast första listelementet i varje lista (ul/ol) ska få en röd kant med tjocklek 1px. Utmaning! sista <ul> med class="checklist" ska inte appliceras*/
+
+
+
+/* 14. Ge alla p som kommer direkt efter h2-elementet i den tredje div-en (class="third") en valfri gul bakgrundsfärg Tips: Adjacent sibling selector*/
+
+
+
+/* 15. Ge det <p> som kommer direkt efter h2-elementet i section med class="junior-career" (class="third") understrykning på texten*/
+
+
+
+/* 16. Gör om den tredje <h3>-rubriken i section med class="senior-career" till versaler */
+
+
+/* Till schackbrädet. Låt stå! */
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+/* 17. Alla udda element under div:en med id="board" ska ha en svart bakgrundsfärg*/
+
+
+
+/* 18. Alla jämna element under div:en med id="board" ska ha en annan bakgrundsfärg än svart*/
+
+
+
+/* 19. Alla <li> med class="checklist" ska ha bakgrundsfärg vit och font-size 32px */
+
+
+
+/* 20. Alla inputrutor av typen "checkbox" ska ha en högermarginal på 10px. De ska även vara dubbelt så stora (använd transfrom: scale(2) */
+
+
+
+/* 21. De inputrutor som är "checked" ska ha överstrykning på label-texten  */
