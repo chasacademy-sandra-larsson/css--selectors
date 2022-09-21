@@ -65,6 +65,114 @@
 
 
 /* Till schackbrädet. Låt stå! */
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ccc;
+
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.container h1 {
+    font-size: 48px;
+
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    width: 80%;
+
+}
+
+
+a:link {
+    color: darkblue;
+}
+
+a:link:visited {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+ol {
+    background-color: rgb(135, 135, 216);
+
+}
+
+.appendix li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.appendix-list>li {
+    /* lyckades ej, testade firstchild och nth child också. */
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+
+.prices ul,
+.more-info ul {
+    background-color: green;
+    font-size: 18px;
+}
+
+.more-info ul li:first-of-type,
+.prices ul li:first-of-type,
+.appendix ol li:first-of-type {
+    border: 1px red solid
+}
+
+h2~p {
+    background-color: yellow;
+
+}
+
+.junior-career h2+p {
+    text-decoration: underline;
+}
+
+.senior-career h3 {
+    text-transform: uppercase;
+}
+
+#board :nth-child(2n+2) {
+    background-color: black;
+}
+
+#board:nth-child(1n+1) {
+    background-color: yellow;
+}
+
+.checklist li {
+    background-color: white;
+    font-size: 32px;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    transform: scale(2);
+}
+
+input[type=checkbox]:checked+label {
+
+    text-decoration: line-through;
+}
+
 .square {
     width: 100px;
     height: 100px;
